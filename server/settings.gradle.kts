@@ -5,5 +5,6 @@ include(
     "application",
     "domain",
     // Adapters:
+    "api-http",
     // Misc:
 )
