@@ -12,6 +12,7 @@ dependencies {
     // Project Modules
     implementation(project(":application"))
     implementation(project(":domain"))
+    implementation(project(":client-http"))
 
     // Root Dependencies
     implementation("org.springframework.boot:spring-boot-starter")
