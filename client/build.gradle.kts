@@ -46,6 +46,12 @@ allprojects {
         }
     }
 
+    dependencyManagement {
+        imports {
+            mavenBom("org.springframework.cloud:spring-cloud-dependencies:2022.0.0")
+        }
+    }
+
     tasks.withType<KotlinCompile> {
         kotlinOptions {
             jvmTarget = JavaVersion.VERSION_17.majorVersion
