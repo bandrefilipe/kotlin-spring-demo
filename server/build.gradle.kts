@@ -16,6 +16,7 @@ dependencies {
 
     // Root Dependencies
     implementation("org.springframework.boot:spring-boot-starter")
+    implementation("org.springframework.boot:spring-boot-starter-actuator")
 }
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
